@@ -9,7 +9,8 @@
     "build:prod": "vite build",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Lemoncode",
   "license": "MIT",
